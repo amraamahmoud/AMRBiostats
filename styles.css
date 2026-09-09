@@ -95,8 +95,14 @@ body {
 
 /* Style dropdown links and their hover state. */
 .navbar .dropdown-item {
-    font-size: 16px;
+    font-size: 13px;
     color: #0466c8 !important;
+    
+}
+
+.navbar ul.dropdown-menu {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .navbar .dropdown-item:hover, .navbar .dropdown-item:focus {
@@ -105,7 +111,7 @@ body {
 }
 
 .navbar-nav .dropdown-menu {
-    font-size: .9rem;
+    font-size: .7rem;
     margin-top: 3px;
     background-color: white;
     overflow: visible !important;

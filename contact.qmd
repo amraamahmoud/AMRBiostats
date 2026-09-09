@@ -1,0 +1,192 @@
+---
+title: ""
+pagetitle: "Contact | AMRBiostats"
+description: "Contact Amr Mahmoud at AMRBiostats in Benha, Egypt, for course enquiries, statistical consultation, and data analysis support. Find phone, email, and social contact details."
+format:
+  html:
+    page-layout: full
+    title-block-style: none
+    toc: false
+    sidebar: false
+    comments: false
+    number-sections: false
+    grid:
+      body-width: 1320px
+      margin-width: 0px
+      sidebar-width: 0px
+      gutter-width: 0rem
+---
+
+<!-- Contact details supplied by the owner. Confirm whether Xpay requires a fuller address before resubmitting. -->
+<!-- Social icons: Iconify / Material Design Icons (Pictogrammers), Apache-2.0. -->
+```{=html}
+<style>
+
+
+/* Scope layout resets to this page: Quarto can add its own page-column grid. */
+.amr-contact { --svc-blue:#0466c8; --svc-navy:#033c73; --svc-muted:#52677f; --svc-line:#dce7f3; display:block !important; grid-column:body-start / body-end; width:100%; max-width:none; min-width:0; margin:22px 0 40px; color:#172c46; font-family:Inter,system-ui,sans-serif; font-weight:400; }
+.amr-contact * { box-sizing:border-box; min-width:0; }
+.amr-contact > *, .amr-contact .svc-hero > *, .amr-contact .svc-grid > *, .amr-contact .svc-contact > * { grid-column:auto; }
+.amr-contact h1,.amr-contact h2,.amr-contact h3 { display:block; border:0; padding:0; color:var(--svc-navy); font-family:inherit; letter-spacing:-.025em; text-align:left; }
+.amr-contact h1 { font-size:clamp(2rem,3.7vw,3rem); line-height:1.15; margin:10px 0 12px; font-weight:750; }
+.amr-contact h2 { font-size:clamp(1.4rem,2.4vw,1.8rem); margin:0 0 10px; font-weight:700; }
+.amr-contact h3 { font-size:1.12rem; line-height:1.35; margin:0; font-weight:650; }
+.amr-contact p { text-align:left; line-height:1.65; color:var(--svc-muted); margin:0; }
+.amr-contact svg { width:23px; height:23px; fill:none; stroke:currentColor; stroke-width:1.65; stroke-linecap:round; stroke-linejoin:round; flex-shrink:0; }
+.amr-contact .svc-eyebrow { font-size:.72rem; color:var(--svc-blue); font-weight:700; letter-spacing:.13em; text-transform:uppercase; }
+.amr-contact .svc-hero { display:block !important; width:100%; padding:30px 34px; border:1px solid var(--svc-line); border-radius:20px; background:linear-gradient(110deg,#fafcff,#eaf3ff); }
+.amr-contact .svc-intro { max-width:none; font-size:1.02rem; }
+.amr-contact .svc-actions { display:flex; flex-wrap:wrap; gap:10px; margin-top:20px; }
+.amr-contact .svc-btn { display:inline-flex; align-items:center; justify-content:center; gap:9px; padding:11px 17px; border:1px solid var(--svc-blue); border-radius:8px; color:white; background:var(--svc-blue); font-size:.9rem; font-weight:600; text-decoration:none; }
+.amr-contact .svc-btn-secondary { color:var(--svc-navy); background:white; border-color:var(--svc-line); }
+/* Override the site-wide red !important hover rule within Services only. */
+.amr-contact a:hover,.amr-contact a:focus-visible { color:var(--svc-blue) !important; }
+.amr-contact .svc-btn { transition:transform 160ms ease,box-shadow 160ms ease,background 160ms ease; }
+.amr-contact .svc-btn:visited { color:white; }
+.amr-contact .svc-btn-secondary:visited { color:var(--svc-navy); }
+.amr-contact .svc-btn:hover,.amr-contact .svc-btn:focus-visible { background:linear-gradient(-65deg,#0466c8,#004e92); color:white !important; transform:translateY(-3px) scale(1.045); box-shadow:0 16px 36px rgba(2,73,171,.16); }
+.amr-contact .svc-card { transition:transform 160ms ease,box-shadow 160ms ease,border-color 160ms ease; }
+@media(hover:hover) { .amr-contact .svc-card:hover { transform:translateY(-6px) scale(1.025); box-shadow:0 20px 42px rgba(2,73,171,.13); border-color:rgba(4,102,200,.3); } }
+.amr-contact .svc-card:focus-within { box-shadow:0 0 0 2px rgba(4,102,200,.3); }
+@media(prefers-reduced-motion:reduce) { .amr-contact .svc-btn,.amr-contact .svc-card { transition:none; } .amr-contact .svc-btn:hover,.amr-contact .svc-btn:focus-visible,.amr-contact .svc-card:hover { transform:none; } }
+.amr-contact a:focus-visible { outline:3px solid #b36c00; outline-offset:4px; }
+.amr-contact .svc-signature { padding:14px 2px; font-size:.81rem; color:var(--svc-muted); }
+.amr-contact .svc-signature strong { color:var(--svc-navy); font-weight:600; }
+.amr-contact .svc-section { display:block; margin-top:18px; scroll-margin-top:95px; }
+.amr-contact .svc-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; margin-top:16px; }
+.amr-contact .svc-card { display:flex; flex-direction:column; padding:22px; border:1px solid var(--svc-line); border-radius:14px; background:#fff; }
+.amr-contact .svc-card-heading { display:flex; align-items:center; gap:12px; margin-bottom:12px; }
+.amr-contact .svc-icon { color:var(--svc-blue); display:flex; }
+.amr-contact .svc-card p { font-size:.9rem; margin-bottom:16px; }
+.amr-contact .svc-card-link { display:inline-flex; align-items:center; gap:7px; margin-top:auto; color:var(--svc-blue); font-size:.83rem; font-weight:600; text-decoration:none; }
+.amr-contact .svc-card-link:hover { text-decoration:underline; }
+.amr-contact .svc-card-link svg { width:16px; height:16px; }
+.amr-contact .svc-contact { display:block !important; margin-top:24px; padding:26px 30px; border-radius:16px; border:1px solid var(--svc-line); background:#f3f8ff; scroll-margin-top:95px; }
+.amr-contact .svc-contact p { font-size:.92rem; }
+.amr-contact .svc-contact .svc-actions { margin:16px 0 12px; }
+.amr-contact .svc-email { color:var(--svc-navy); font-size:.85rem; overflow-wrap:anywhere; }
+.amr-contact .svc-contact .svc-note { margin-top:10px; font-size:.79rem; }
+@media(max-width:1000px) { .amr-contact .svc-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media(max-width:520px) { .amr-contact .svc-grid { grid-template-columns:1fr; gap:12px; } .amr-contact .svc-hero,.amr-contact .svc-contact { padding:22px; } .amr-contact .svc-card { padding:20px; } .amr-contact .svc-actions { flex-direction:column; } .amr-contact .svc-btn { width:100%; } }
+/* WhatsApp green, darkened to keep white text readable. */
+.amr-contact .svc-whatsapp,
+.amr-contact .svc-whatsapp:visited { background:#128c4a; border-color:#128c4a; color:#fff; }
+.amr-contact .svc-whatsapp:hover,
+.amr-contact .svc-whatsapp:focus-visible { background:#0b6b38; border-color:#0b6b38; color:#fff !important; box-shadow:0 16px 36px rgba(18,140,74,.2); }
+.amr-contact .svc-email-btn,
+.amr-contact .svc-email-btn:visited {
+  background: #B45309;
+  border-color: #B45309;
+  color: white;
+}
+.amr-contact .svc-email-btn:hover,
+.amr-contact .svc-email-btn:focus-visible {
+  background: #92400E;
+  border-color: #92400E;
+  color: white !important;
+  box-shadow: 0 16px 36px rgba(180, 83, 9, 0.2);
+}
+/* Embedded Iconify MDI SVGs use filled paths rather than the page's line-icon styling. */
+.amr-contact .svc-social-icon { display:inline-flex; align-items:center; flex-shrink:0; width:23px; height:23px; }
+.amr-contact .svc-social-icon svg { fill:currentColor; stroke:none; }
+/* Compact contact buttons, including on mobile. */
+.amr-contact .svc-contact .svc-actions { flex-direction:row; flex-wrap:wrap; gap:9px; }
+.amr-contact .svc-contact .svc-btn { width:132px; min-height:44px; max-width:100%; padding:9px 13px; gap:7px; font-size:.85rem; }
+.amr-contact .svc-contact .svc-btn svg,
+.amr-contact .svc-contact .svc-social-icon { width:20px; height:20px; }
+/* Centered section-label pill, matching the site's soft blue labels. */
+.amr-contact h2.svc-heading-pill {
+  display:table;
+  width:fit-content;
+  max-width:100%;
+  margin:8px auto 22px;
+  padding:10px 24px;
+  border:1px solid var(--svc-line);
+  border-radius:999px;
+  background:#f4f8ff;
+  color:var(--svc-navy);
+  font-size:1.05rem;
+  font-weight:900;
+  line-height:1.4;
+  letter-spacing:-.025em;
+  text-transform:uppercase;
+  text-align:center;
+  box-shadow:none;
+}
+/* Keep borders inside phone and tablet viewports, including iPad landscape. */
+@media(max-width:1400px) {
+  .amr-contact { box-sizing:border-box; padding-inline:clamp(12px, 1.5vw, 20px); }
+  .amr-contact .svc-grid { min-width:0; }
+  .amr-contact .svc-card { max-width:100%; }
+  .amr-contact .svc-card:hover { transform:none; }
+  .amr-contact .svc-btn:hover,
+  .amr-contact .svc-btn:focus-visible { transform:translateY(-3px); }
+}
+
+.amr-contact .contact-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; margin-top:22px; }
+.amr-contact .contact-card { padding:26px; border:1px solid var(--svc-line); border-radius:16px; background:#fff; }
+.amr-contact .contact-label { display:flex; align-items:center; gap:12px; margin-bottom:14px; color:var(--svc-blue); }
+.amr-contact .contact-label h2 { margin:0; font-size:1.12rem; }
+.amr-contact .contact-value { display:block; color:var(--svc-navy); font-size:clamp(1rem,1.8vw,1.2rem); font-weight:650; text-decoration:none; overflow-wrap:anywhere; line-height:1.6; }
+.amr-contact .contact-value[href] { padding-block:6px; min-height:44px; }
+.amr-contact .contact-value:hover { text-decoration:underline; }
+.amr-contact .contact-card p { font-size:.88rem; margin-top:7px; }
+.amr-contact address { margin:0; font-style:normal; }
+.amr-contact .contact-identity { padding:18px 4px 0; color:var(--svc-muted); font-size:.84rem; }
+.amr-contact .contact-identity strong { color:var(--svc-navy); }
+.amr-contact .contact-social { margin-top:22px; }
+.amr-contact .contact-tip { border-top:1px solid var(--svc-line); padding-top:14px; margin-top:18px; font-size:.84rem; }
+@media(max-width:600px) { .amr-contact .contact-grid { grid-template-columns:1fr; gap:14px; } .amr-contact .contact-card { padding:22px; } }
+@media(prefers-reduced-motion:reduce) { .amr-contact .svc-btn:hover,.amr-contact .svc-btn:focus-visible { transform:none; } }
+/* Keep the custom title inside its panel through Quarto post-processing. */
+.amr-contact .svc-hero .contact-hero-title {
+  display:block;
+  position:static;
+  margin:0 0 12px;
+  padding:0;
+  color:var(--svc-navy);
+  font-family:inherit;
+  font-size:clamp(2rem,3.7vw,3rem);
+  font-weight:750;
+  line-height:1.15;
+  letter-spacing:-.025em;
+  text-align:left;
+}
+</style>
+<div class="amr-contact">
+<div class="svc-hero" role="region" aria-labelledby="contact-title">
+<div id="contact-title" class="contact-hero-title" role="heading" aria-level="1">Get in touch</div>
+<p class="svc-intro">Contact us for course enquiries, consultations, and statistical support.</p>
+</div>
+<div class="contact-grid">
+<div class="contact-card" role="region" aria-labelledby="address-heading">
+<div class="contact-label"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><h2 id="address-heading">Address</h2></div>
+<address class="contact-value">Benha, Egypt</address>
+</div>
+<div class="contact-card" role="region" aria-labelledby="phone-heading">
+<div class="contact-label"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 3 4 4-2 3a16 16 0 0 0 6 6l3-2 4 4-2 3C10 21 3 14 3 5Z"/></svg><h2 id="phone-heading">Phone</h2></div>
+<a class="contact-value" href="tel:+201012721690" dir="ltr">+20 101 272 1690</a>
+<p>Tap the number to call.</p>
+</div>
+<div class="contact-card" role="region" aria-labelledby="email-heading">
+<div class="contact-label"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg><h2 id="email-heading">Email</h2></div>
+<a class="contact-value" href="mailto:consultation@amrbiostats.com">consultation@amrbiostats.com</a>
+<p>For course enquiries, bookings, and project support.</p>
+</div>
+<div class="contact-card" role="region" aria-labelledby="enquiry-heading">
+<div class="contact-label"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 11a8 8 0 0 1-8 8H7l-4 3V11a9 9 0 0 1 18 0Z"/><path d="M7 10h10M7 14h6"/></svg><h2 id="enquiry-heading">Planning a project?</h2></div>
+<p>Tell us your research question, the help you need, and your preferred timeline. We’ll review the deliverables and send a quotation before the cost is agreed.</p>
+<a class="contact-value" href="services.html">Explore our services →</a>
+</div>
+</div>
+<div class="svc-contact contact-social" role="region" aria-labelledby="message-heading">
+<h2 id="message-heading">Choose how to get in touch</h2>
+<div class="svc-actions">
+<a class="svc-btn svc-email-btn" href="mailto:consultation@amrbiostats.com?subject=Services%20enquiry"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg>Email</a>
+<a class="svc-btn svc-whatsapp" href="https://api.whatsapp.com/send?phone=201012721690" target="_blank" rel="noopener noreferrer" aria-label="Contact AMRBiostats on WhatsApp (opens in a new tab)"><span class="svc-social-icon" aria-hidden="true"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.23 8.23 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23c-1.48 0-2.93-.39-4.19-1.15l-.3-.17l-3.12.82l.83-3.04l-.2-.32a8.2 8.2 0 0 1-1.26-4.38c.01-4.54 3.7-8.24 8.25-8.24M8.53 7.33c-.16 0-.43.06-.66.31c-.22.25-.87.86-.87 2.07c0 1.22.89 2.39 1 2.56c.14.17 1.76 2.67 4.25 3.73c.59.27 1.05.42 1.41.53c.59.19 1.13.16 1.56.1c.48-.07 1.46-.6 1.67-1.18s.21-1.07.15-1.18c-.07-.1-.23-.16-.48-.27c-.25-.14-1.47-.74-1.69-.82c-.23-.08-.37-.12-.56.12c-.16.25-.64.81-.78.97c-.15.17-.29.19-.53.07c-.26-.13-1.06-.39-2-1.23c-.74-.66-1.23-1.47-1.38-1.72c-.12-.24-.01-.39.11-.5c.11-.11.27-.29.37-.44c.13-.14.17-.25.25-.41c.08-.17.04-.31-.02-.43c-.06-.11-.56-1.35-.77-1.84c-.2-.48-.4-.42-.56-.43c-.14 0-.3-.01-.47-.01"/></svg></span>WhatsApp</a>
+<a class="svc-btn" href="https://www.facebook.com/share/1CC3thHbyc/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Visit AMRBiostats on Facebook (opens in a new tab)"><span class="svc-social-icon" aria-hidden="true"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.04c-5.5 0-10 4.49-10 10.02c0 5 3.66 9.15 8.44 9.9v-7H7.9v-2.9h2.54V9.85c0-2.51 1.49-3.89 3.78-3.89c1.09 0 2.23.19 2.23.19v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.45 2.9h-2.33v7a10 10 0 0 0 8.44-9.9c0-5.53-4.5-10.02-10-10.02"/></svg></span>Facebook</a>
+</div>
+<p class="svc-note">For booking or payment enquiries, include the course or service name and any booking reference. Please do not send payment-card details or identifiable participant data.</p>
+</div>
+</div>
+```

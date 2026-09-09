@@ -24,20 +24,21 @@ website:
     logo: /images/fav.png
     pinned: true
     left:
-    - text: About Author {{< iconify solar:user-id-linear size=20px >}}
+    - text: About Author {{< iconify solar:user-id-linear size=22px >}}
       href: author.qmd
-    - text: GitHub {{< iconify octicon:mark-github-16 size=20px >}}
-      href: https://github.com/amraamahmoud/amrbiostats_website.git
-      target: _blank
-    - text: Contact {{< iconify mdi:email-arrow-right size=23px >}}
-      href: mailto:consultation@amrbiostats.com
+    - text: Contact {{< iconify solar:letter-linear size=23px >}}
+      href: contact.qmd
     right:
-      - text: Maths Refresher {{< iconify hugeicons:calculate size=24px >}}
-        href: maths_refresher.qmd
-      - text: Biostatistics {{< iconify uis:graph-bar size=20px >}}
-        href: biostatistics.qmd
+      - text: Resources {{< iconify streamline-plump:global-learning size=23px >}}
+        menu: 
+          - text: Maths Refresher {{< iconify hugeicons:calculate size=24px >}}
+            href: maths_refresher.qmd
+          - text: Biostatistics {{< iconify carbon:qq-plot size=24px >}}
+            href: biostatistics.qmd
       - text: Courses {{< iconify hugeicons:course size=24px >}}
         href: courses.qmd
+      - text: Services {{< iconify gridicons:stats-up-alt size=24px >}}
+        href: services.qmd
     background: info
     foreground: light
   sidebar:
@@ -74,6 +75,10 @@ website:
     - text: GitHub {{< iconify ri:github-fill >}}
       href: https://github.com/amraamahmoud/amrbiostats_website.git
       target: _blank
+    - text: Terms & Conditions {{< iconify tabler:file-description >}}
+      href: terms.qmd
+    - text: Refund & Cancellation {{< iconify tabler:receipt-refund >}}
+      href: refund.qmd
 format:
   html:
     theme: cerulean
