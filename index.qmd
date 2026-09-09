@@ -19,26 +19,30 @@ format:
 <style>
 
 /* Homepage hero refresh: balanced destinations and a question-to-insight scene. */
-.amr-home.amr-home-v2 .amr-home-actions { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); width:min(100%,520px); gap:12px; padding:4px; }
+.amr-home.amr-home-v2 .amr-home-actions { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); width:min(100%,520px); gap:12px; padding:0; margin-left:50px; margin-right:0; }
 .amr-home.amr-home-v2 .amr-home-actions .amr-home-button { width:100%; min-width:0; min-height:54px; justify-content:space-between; padding:14px 18px; font-size:clamp(.88rem,1.35vw,1rem); }
 .amr-home.amr-home-v2 .amr-home-actions .amr-home-button svg { flex-shrink:0; width:20px; }
 .amr-home.amr-home-v2 .amr-home-actions .amr-home-button:hover { transform:translateY(-3px); }
-.amr-home .amr-research-scene { display:block; position:relative; width:min(100%,440px); min-width:0; margin:auto; padding:24px; border:1px solid #cfe3f7; border-radius:28px; background:radial-gradient(ellipse at 50% 0%,#def5f6,transparent 65%),#f6faff; box-shadow:0 20px 45px rgba(3,60,115,.09); overflow:visible; }
-.amr-home .amr-scene-brand { display:grid; justify-items:center; gap:6px; padding-bottom:20px; overflow:visible; }
-.amr-home .amr-scene-brand img { display:block; width:400px; max-width:100%; height:123px; max-height:none; object-fit:contain; object-position:center; padding:8px 8px 14px; margin:0; border:0; border-radius:0; background:transparent; box-shadow:none; animation:none; }
+/* Keep the hero copy left-aligned and aligned to the top of the illustration. */
+.amr-home.amr-home-v2 .amr-home-hero-body { align-items:start; }
+.amr-home.amr-home-v2 .amr-home-hero-text { align-self:start; margin-top:0; padding-top:0; text-align:left; }
+.amr-home.amr-home-v2 .amr-home-subtitle { margin-top:0; margin-left:0; margin-right:0; text-align:left; }
+.amr-home .amr-research-scene { display:block; position:relative; width:min(100%,360px); min-width:0; margin:auto; padding:18px; border:1px solid #cfe3f7; border-radius:28px; background:radial-gradient(ellipse at 50% 0%,#def5f6,transparent 65%),#f6faff; box-shadow:0 20px 45px rgba(3,60,115,.09); overflow:visible; }
+.amr-home .amr-scene-brand { display:grid; justify-items:center; gap:6px; padding-bottom:12px; overflow:visible; }
+.amr-home .amr-scene-brand img { display:block; width:340px; max-width:100%; height:100px; max-height:none; object-fit:contain; object-position:center; padding:6px 6px 10px; margin:0; border:0; border-radius:0; background:transparent; box-shadow:none; animation:none; }
 .amr-home .amr-scene-brand strong { color:#033c73; font-size:1.1rem; font-weight:850; margin-top:8px; }
 .amr-home .amr-scene-brand > span { color:#52677f; font-size:.8rem; }
 @keyframes amr-scene-arrive { from { opacity:0; transform:translateY(7px); } to { opacity:1; transform:translateY(0); } }
 @media(max-width:1400px) { .amr-home.amr-home-v2 { box-sizing:border-box; padding-inline:clamp(12px,1.5vw,20px); } .amr-home.amr-home-v2 .amr-home-path:hover,.amr-home.amr-home-v2 .amr-home-consult:hover { transform:translateY(-3px); } }
 @media(min-width:641px) and (max-width:1000px) { .amr-home.amr-home-v2 .amr-home-hero-body { grid-template-columns:minmax(0,1.1fr) minmax(0,1fr); gap:20px; } .amr-home .amr-research-scene { padding:16px; } .amr-home.amr-home-v2 .amr-home-actions .amr-home-button { padding:12px 10px; gap:6px; } }
-@media(max-width:640px) { .amr-home .amr-research-scene { width:min(100%,400px); padding:20px; } .amr-home.amr-home-v2 .amr-home-actions { gap:10px; } .amr-home.amr-home-v2 .amr-home-actions .amr-home-button { padding:12px 10px; font-size:.85rem; } }
+@media(max-width:640px) { .amr-home .amr-research-scene { width:min(100%,340px); padding:16px; } .amr-home.amr-home-v2 .amr-home-actions { gap:10px; margin-left:0; } .amr-home.amr-home-v2 .amr-home-actions .amr-home-button { padding:12px 10px; font-size:.85rem; } }
 @media(max-width:360px) { .amr-home.amr-home-v2 .amr-home-actions { grid-template-columns:1fr; } .amr-home .amr-research-scene { padding:14px; } }
 @media(prefers-reduced-motion:reduce) { .amr-home .amr-research-scene * { animation:none !important; } .amr-home.amr-home-v2 .amr-home-actions .amr-home-button:hover { transform:none; } }
 /* Natural height prevents the enlarged logo and chart from being clipped. */
 .amr-home .amr-research-scene { height:auto; max-height:none; aspect-ratio:auto; }
 
 /* Illustrative points organize into groups; no numerical research claim is implied. */
-.amr-home .amr-data-viz { padding:18px 12px 16px; border:1px solid #dce9f8; border-radius:18px; background:#fff; }
+.amr-home .amr-data-viz { padding:14px 10px 12px; border:1px solid #dce9f8; border-radius:18px; background:#fff; }
 .amr-home .amr-data-kicker { text-align:center; color:#52677f; font-size:.74rem; letter-spacing:.025em; }
 .amr-home .amr-data-viz svg { display:block; width:100%; height:auto; margin:8px 0; overflow:visible; }
 .amr-home .amr-data-axes { animation:amr-data-reveal .8s 1.5s both; }
@@ -69,9 +73,7 @@ format:
       <div class="amr-home-hero-body">
         <div class="amr-home-hero-text">
           <p class="amr-home-subtitle">
-            AMRBiostats helps students, researchers, and health professionals learn
-            biostatistics and R programming with accurate explanations, reproducible
-            examples, and practical interpretation.
+           AMRBiostats helps students, researchers, and health professionals learn biostatistics, plan appropriate statistical analyses, and turn research data into clear, defensible conclusions.
           </p>
 
           <div class="amr-home-actions" aria-label="Primary learning paths">
@@ -340,6 +342,51 @@ format:
     }, { rootMargin: "0px 0px -12% 0px", threshold: 0.12 });
 
     targets.forEach((target) => observer.observe(target));
+
+    // Replay the hero chart animation when the figure is actually reached.
+    // This is especially useful on phones, where the figure may begin below the fold.
+    const scene = document.querySelector(".amr-research-scene");
+
+    if (scene) {
+      const animatedParts = scene.querySelectorAll(
+        ".amr-data-axes, .amr-data-point, .amr-data-caption"
+      );
+
+      const rect = scene.getBoundingClientRect();
+      const visibleHeight = Math.max(
+        0,
+        Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0)
+      );
+      let wasVisibleEnough = rect.height > 0 && (visibleHeight / rect.height) >= 0.4;
+
+      const replaySceneAnimation = () => {
+        animatedParts.forEach((part) => {
+          part.style.animation = "none";
+        });
+
+        // Force a reflow so restoring the stylesheet animation restarts it.
+        void scene.offsetWidth;
+
+        animatedParts.forEach((part) => {
+          part.style.animation = "";
+        });
+      };
+
+      const sceneObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && entry.intersectionRatio >= 0.4) {
+            if (!wasVisibleEnough) replaySceneAnimation();
+            wasVisibleEnough = true;
+          } else if (entry.intersectionRatio < 0.1) {
+            // Reset only after the figure has mostly left the viewport,
+            // preventing repeated restarts from small scroll movements.
+            wasVisibleEnough = false;
+          }
+        });
+      }, { threshold: [0.1, 0.4] });
+
+      sceneObserver.observe(scene);
+    }
   })();
 </script>
 ```
